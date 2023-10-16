@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Header {
+    display: flex;
+    height: 67vh;
+    background-color: rgb(255, 205, 158);
+}
+
+#heading {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: bolder;
+}
+
+#team {
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+#show {
+    font-weight: bolder;
+    margin: 25px 0px;
+}
+
+input {
+    border-radius: 7px;
+    height: 50px;
+    border: 4px solid black;
+    width: 290px;
+    padding-left: 10px;
+}
+
+input,
+input::placeholder {
+    font-size: 20px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+
+.block1 {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    padding: 50px 50px 50px 150px;
+}
+
+p:nth-child(6) {
+    padding: 0px 0px 0px 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.block2 {
+    width: 50%;
+    height: 100%;
+    padding: 0px 100px 0px 150px;
+}
+
+img {
+    height: 63vh;
+    justify-content: center;
+    right: 40px;
+}
+
+.Footer {
+    display: flex;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    height: 33vh;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.block3 {
+    width: 50%;
+    padding: 13px 100px 13px 180px;
+}
+
+.block4 {
+    width: 50%;
+    padding: 13px 220px 13px 80px;
+}
+
+.block4 li {
+    text-align: right;
+}
